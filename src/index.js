@@ -20,11 +20,8 @@ const manualUpdate = null;
 
 // window.addEventListener('load', renderCats());
 renderCats();
-// linksAPIObj.refs.breedSelectEl.addEventListener('change', manualUpdate);
+// linksAPIObj.refs.breedSelectEl.addEventListener('change', renderDescriptionCat);
 
-// function manualUpdate() {
-//   console.log('Manual Upfate!@');
-// }
 
 function renderCats() {
   fetchBreeds()
